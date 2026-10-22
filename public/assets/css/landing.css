@@ -235,3 +235,8 @@ h1 { margin-bottom: 14px; font-size: clamp(3rem, 9vw, 6.7rem); line-height: .9; 
 .landing-arrow span { font-size: .57rem; letter-spacing: .08em; }
 .arrow-up { color: #baffdf; }
 .arrow-down { color: #ffd4dc; }
+
+/* Solo-mode actions, styled to match the original arcade links. */
+.card-content .play-link { display: inline-block; color: inherit; text-decoration: none; border-radius: 999px; }
+.card-content .play-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.card-content .solo-link { margin-left: 8px; color: #4e56a8; }
